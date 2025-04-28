@@ -13,6 +13,9 @@ header {
     background-color: transparent;
     padding: 20px;
 }
+header h1 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
 .button-container {
     margin: 20px;
 }
