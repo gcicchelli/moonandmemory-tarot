@@ -1,0 +1,44 @@
+body {
+    font-family: Georgia, serif;
+    background-color: #f5f0ff;
+    color: #2e003e;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #FFD700;
+    padding: 20px;
+}
+.button-container {
+    margin: 20px;
+}
+button {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #d1c4e9;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#reading-area {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    background-color: #FFD700;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.card h2, .card p {
+    margin: 10px 0;
+}
