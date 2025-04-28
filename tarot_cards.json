@@ -1,0 +1,134 @@
+[
+    {
+        "number": 0,
+        "name": "New Journey",
+        "meaning": "\ud83c\udf31 You\u2019re stepping into the unknown with trust in the universe. Adventure calls!",
+        "image": "0_new_journey.png"
+    },
+    {
+        "number": 1,
+        "name": "Manifestation",
+        "meaning": "\u2728 You have the tools you need to create magic. Your will shapes reality.",
+        "image": "1_manifestation.png"
+    },
+    {
+        "number": 10,
+        "name": "Blooming",
+        "meaning": "\ud83c\udf3a You are blossoming into your power. Let the light touch every part of you.",
+        "image": "10_blooming.png"
+    },
+    {
+        "number": 11,
+        "name": "Truth",
+        "meaning": "\u2696\ufe0f Seek fairness and balance. Truth will illuminate the path ahead.",
+        "image": "11_truth.png"
+    },
+    {
+        "number": 12,
+        "name": "Release Shed",
+        "meaning": "\ud83d\udd04 Surrender control. A shift in perspective will set you free.",
+        "image": "12_release_shed.png"
+    },
+    {
+        "number": 13,
+        "name": "Change",
+        "meaning": "\ud83e\udd8b Transformation is happening. Release what no longer serves.",
+        "image": "13_change.png"
+    },
+    {
+        "number": 14,
+        "name": "Patience",
+        "meaning": "\ud83c\udf2c\ufe0f Balance and moderation will restore your spirit. Be gentle with time.",
+        "image": "14_patience.png"
+    },
+    {
+        "number": 15,
+        "name": "Shadow Addiction",
+        "meaning": "\ud83d\udd78\ufe0f What binds you? Awareness is the first spell of liberation.",
+        "image": "15_shadow_addiction.png"
+    },
+    {
+        "number": 16,
+        "name": "Upheaval",
+        "meaning": "\u26a1 A sudden shift may shake your world\u2014but it's clearing space for rebirth.",
+        "image": "16_upheaval.png"
+    },
+    {
+        "number": 17,
+        "name": "New Hope",
+        "meaning": "\ud83c\udf1f Keep your eyes on the stars. Healing and hope are flowing in.",
+        "image": "17_new_hope.png"
+    },
+    {
+        "number": 18,
+        "name": "Moon Intuition",
+        "meaning": "\ud83c\udf0a Things may feel uncertain, but your intuition is your true compass.",
+        "image": "18_moon_intuition.png"
+    },
+    {
+        "number": 19,
+        "name": "Sun Good Fortune",
+        "meaning": "\ud83c\udf1e Joy, clarity, and abundance surround you. Bask in the light.",
+        "image": "19_sun_good_fortune.png"
+    },
+    {
+        "number": 2,
+        "name": "Knowing",
+        "meaning": "\ud83c\udf19 Trust your inner wisdom. The answers are already within you.",
+        "image": "2_knowing.png"
+    },
+    {
+        "number": 20,
+        "name": "Evolution",
+        "meaning": "\ud83e\udd85 You\u2019re rising to a higher calling. Embrace your growth and awakening.",
+        "image": "20_evolution.png"
+    },
+    {
+        "number": 21,
+        "name": "Completion",
+        "meaning": "\ud83d\udd2e A cycle has ended. You\u2019ve made it through\u2014celebrate your wholeness!",
+        "image": "21_completion.png"
+    },
+    {
+        "number": 3,
+        "name": "Mother Creation",
+        "meaning": "\ud83c\udf38 Nurture your creations. You are a source of beauty, life, and abundance.",
+        "image": "3_mother_creation.png"
+    },
+    {
+        "number": 4,
+        "name": "Father Structure",
+        "meaning": "\ud83d\udee1\ufe0f Stability and boundaries empower your path. Lead with wisdom.",
+        "image": "4_father_structure.png"
+    },
+    {
+        "number": 5,
+        "name": "Tradition",
+        "meaning": "\ud83d\udcdc Turn to ancestral knowledge or sacred systems to guide you now.",
+        "image": "5_tradition.png"
+    },
+    {
+        "number": 6,
+        "name": "Union",
+        "meaning": "\ud83d\udc9e A meaningful connection or choice is asking for your full heart.",
+        "image": "6_union.png"
+    },
+    {
+        "number": 7,
+        "name": "Willpower",
+        "meaning": "\ud83d\ude80 Your focus and determination will carry you forward\u2014trust your direction.",
+        "image": "7_willpower.png"
+    },
+    {
+        "number": 8,
+        "name": "Courage",
+        "meaning": "\ud83e\udd81 You have deep, quiet strength. Face challenges with compassion.",
+        "image": "8_courage.png"
+    },
+    {
+        "number": 9,
+        "name": "Cocoon",
+        "meaning": "\ud83d\udd6f\ufe0f Pull back and reflect. There is wisdom in solitude and stillness.",
+        "image": "9_cocoon.png"
+    }
+]
