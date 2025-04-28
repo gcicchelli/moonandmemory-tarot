@@ -40,14 +40,33 @@ function createCardElement(card) {
     div.appendChild(description);
     return div;
 }
-function setMoonPhase() {
-    const phases = [
-        "New Moon", "Waxing Crescent", "First Quarter",
-        "Waxing Gibbous", "Full Moon", "Waning Gibbous",
-        "Last Quarter", "Waning Crescent"
-    ];
-    const today = new Date();
-    const phase = phases[today.getDate() % phases.length];
-    document.getElementById('moon-phase').textContent = `Moon Phase: ${phase}`;
+function getSimpleMoonPhase() {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = now.getMonth() + 1;
+    const day = now.getDate();
+
+    const c = Math.floor(year / 100);
+    const e = 2 - c + Math.floor(c / 4);
+    const jd = Math.floor(365.25 * (year + 4716)) +
+               Math.floor(30.6001 * (month + 1)) +
+               day + e - 1524.5;
+    const daysSinceNew = jd - 2451549.5;
+    const newMoons = daysSinceNew / 29.53058867;
+    const phase = newMoons - Math.floor(newMoons);
+
+    if (phase < 0.03 || phase > 0.97) return { emoji: "🌑 New Moon", meaning: "Set intentions for new beginnings." };
+    else if (phase < 0.47) return { emoji: "🌒 Waxing", meaning: "Growth and momentum are building." };
+    else if (phase < 0.53) return { emoji: "🌕 Full Moon", meaning: "Illumination and fulfillment." };
+    else return { emoji: "🌘 Waning", meaning: "Release, reflect, and prepare for renewal." };
 }
+
+function setMoonPhase() {
+    const moonData = getSimpleMoonPhase();
+    document.getElementById('moon-phase').innerHTML = `
+        <strong>Moon Phase:</strong> ${moonData.emoji}<br>
+        <em>${moonData.meaning}</em>
+    `;
+}
+
 setMoonPhase();
