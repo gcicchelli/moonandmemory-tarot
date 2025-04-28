@@ -1,6 +1,9 @@
 body {
     font-family: Georgia, serif;
-    background-color: #f5f0ff;
+    background-image: url('images/background_app.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: #2e003e;
     text-align: center;
     margin: 0;
