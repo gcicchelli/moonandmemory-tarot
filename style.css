@@ -45,6 +45,12 @@ button {
     width: 100%;
     border-radius: 8px;
 }
+.header-gif {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
 .card h2, .card p {
     margin: 10px 0;
 }
